@@ -1,7 +1,7 @@
-# Redline Web — portal customer
+# Redline Web (publik)
 
-Next.js untuk **pengunjung**: katalog, cek servis, QR perangkat, nota publik.
+Portal **customer**: katalog, cek servis, QR perangkat.
 
-- Deploy terpisah di Vercel (kuota terpisah dari staff).
-- **Satu MongoDB** dengan kasir — lewat Flask `redline-api`.
-- Lihat [DEPLOY-VERCEL-PUBLIC.md](./DEPLOY-VERCEL-PUBLIC.md).
+Backend & DB sama dengan repo privat — lewat `API_BASE_URL` ke Flask + MongoDB Atlas.
+
+Repo privat (staff + API): https://github.com/yhnzzzwp/redline-private
